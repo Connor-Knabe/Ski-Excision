@@ -129,77 +129,39 @@
   </body>
 </html>
 
+
+
 <?php
-$myemail  = "you@domain.com";
-
-$fullname = check_input($_POST['yourname'], "Enter your name");
-$message  = check_input($_POST['subject'], "Write a subject");
-$email    = check_input($_POST['email']);
-$phonenumber = check_input($_POST['phonenumber']);
-$website  = check_input($_POST['website']);
-$likeit   = check_input($_POST['likeit']);
-$how_find = check_input($_POST['how']);
-$comments = check_input($_POST['comments'], "Write your comments");
-
-if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
-{
-    show_error("E-mail address not valid");
-}
-
-/* If URL is not valid set $website to empty */
-if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
-{
-    $website = '';
-}
-
-$message = "Hello!
-
-
-Name: $yourname
-E-mail: $email
-Phonenumber: $phonenumber
-URL: $website
-
-Like the website? $likeit
-How did he/she find it? $how_find
-
-Comments:
-$comments
-
-End of message
-";
-
-mail($myemail, $subject, $message);
-
-/* Redirect visitor to the thank you page */
-header('Location: thankyou.html');
-exit();
-
-/* Functions we used */
-function check_input($data, $problem='')
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    if ($problem && strlen($data) == 0)
+$action = $_REQUEST['action'];
+if ($action == "")  
     {
-        show_error($problem);
-    }
-    return $data;
-}
-
-function show_error($myError)
-{
+    ?>
+    <form  action="" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="action" value="submit">
+    Your name:<br>
+    <input name="name" type="text" value="" size="30"/><br>
+    Your email:<br>
+    <input name="email" type="text" value="" size="30"/><br>
+    Your message:<br>
+    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <input type="submit" value="Send email"/>
+    </form>
+    <?php
+    } 
+else               
+    {
+    $fullname =$_REQUEST['name'];
+    $email = $_REQUEST['email'];
+    $message = $_REQUEST['message'];
+    if (($fullname == "")||($email == "")||($message == ""))
+        {
+        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        }
+    else{        
+        $from = "From: $name <$email> \r\nReturn-path: $email";
+        $subject ="Message sent using your contact form";
+       	mail("cakk155@gmail.com", $subject, $message, $from);
+        echo "Email sent!";
+        } 
 ?>
-    <html>
-    <body>
 
-    <b>Please correct the following error:</b><br />
-    <?php echo $myError; ?>
-
-    </body>
-    </html>
-<?php
-exit();
-}
-?>
