@@ -2,8 +2,6 @@
 
 <html lang="en">
   <head>
-  
-  
   <?php include("include/header.php"); ?>
     <!-- Jquery UI -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
