@@ -96,19 +96,19 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img class="img-responsive img-full" src="http://cdn.theplanetd.com/images/vail-resorts-colorado.jpg" >
+                  <img class="img-responsive img-full" src="img/jumbotron/vail-resorts_colorado_ALTERED.jpg" >
                 </div>
                 <div class="item">
-                  <img class="img-responsive img-full" src="http://www.theskichannel.com/wp-content/uploads/2012/11/Tamarack-Express-11.14.12_2.jpg" >
+                  <img class="img-responsive img-full" src="img/jumbotron/Tamarack-Express-11_ALTERED2.jpg" >
                 </div>
                 <div class="item">
-                  <img class="img-responsive img-full" src="http://upload.wikimedia.org/wikipedia/commons/f/f5/Alta_Little_Cottonwood_Canyon.JPG" >
+                  <img class="img-responsive img-full" src="img/jumbotron/Alta_Little_Cottonwood_Canyon_ALTERED.jpg" >
                 </div>
                 <div class="item">
-                  <img class="img-responsive img-full" src="http://www.skivacationinsider.com/wp-content/uploads/2010/12/Snowbird-Cliff-Lodge.jpg" >
+                  <img class="img-responsive img-full" src="img/jumbotron/Snowbird-Cliff-Lodge_ALTERED.jpg" >
                 </div>
                 <div class="item">
-                  <img class="img-responsive img-full" src="http://iad-vail.com/gallery/large/VAIL_WEB_01.jpg" >
+                  <img class="img-responsive img-full" src="img/jumbotron/VAIL_WEB_01_ALTERED.jpg" >
                 </div>
 
               </div>

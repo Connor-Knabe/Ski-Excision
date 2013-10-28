@@ -160,7 +160,7 @@ else
     else{        
         $from = "From: $name <$email> \r\nReturn-path: $email";
         $subject ="Message sent using your contact form";
-       	mail("cakk155@gmail.com", $subject, $message, $from);
+       	mail("youremail@yoursite.com", $subject, $message, $from);
         echo "Email sent!";
         } 
 ?>

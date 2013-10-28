@@ -1,15 +1,15 @@
 10
 
 dir
-18
+51
 https://codeforge.cs.missouri.edu/svn/skiexcision/trunk/new_website/img
 https://codeforge.cs.missouri.edu/svn/skiexcision
 
 
 
-2013-10-19T21:05:04.759126Z
-18
-ckgdd
+2013-10-25T18:03:58.237151Z
+40
+wcmvh8
 
 
 
@@ -28,7 +28,7 @@ ckgdd
 
 slide-3.jpg
 file
-
+18
 
 
 
@@ -60,9 +60,80 @@ has-props
 
 27671
 
+jumbotron
+dir
+
+ski-resort-at-night-11288014304WuG5.jpg
+file
+29
+
+
+
+2013-10-22T14:58:11.000000Z
+d54db827d860d246b88a59ded66c0bdc
+2013-10-22T01:19:49.849622Z
+22
+jcuqn5
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+288339
+
+circuitrycompressed.jpg
+file
+29
+
+
+
+2013-10-22T14:58:11.000000Z
+3c52dd626f31696921539f146902c5cb
+2013-10-22T14:16:03.396981Z
+28
+jcuqn5
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+613955
+
 intro-pic.jpg
 file
-
+18
 
 
 
@@ -94,9 +165,43 @@ has-props
 
 5753
 
+slopecompressed.jpg
+file
+29
+
+
+
+2013-10-22T14:58:11.000000Z
+98244cee8f425adf9e57e6a95fdd17c1
+2013-10-22T01:19:49.849622Z
+22
+jcuqn5
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+506696
+
 bg.jpg
 file
-
+18
 
 
 
@@ -128,9 +233,43 @@ has-props
 
 196219
 
+whiteboard.jpg
+file
+29
+
+
+
+2013-10-22T14:58:11.000000Z
+1bcea89fcccf0ccfe34a1678889bbb92
+2013-10-22T14:16:03.396981Z
+28
+jcuqn5
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+578033
+
 slide-1.jpg
 file
-
+18
 
 
 
@@ -164,7 +303,7 @@ has-props
 
 slide-2.jpg
 file
-
+18
 
 
 
