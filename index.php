@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-	  <?php include("include/header.php"); ?>
+  	<?php include("include/header.php"); ?>
+  	
     <!-- Jquery UI -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
     <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
@@ -35,36 +35,9 @@
   </head>
 
   <body>
-  
-    <div class="brand">Ski Excision</div>
-    <div class="address-bar">Ski Vacation Aid</div>
+      <?php include("include/navbar.php"); ?>
 
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Ski Excision</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="resort_info.html">Resort Info</a></li>
-            <li><a href="references.html">References</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-
+    
     <div class="container">
 
       <div class="row">
