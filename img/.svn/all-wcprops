@@ -1,7 +1,11 @@
 K 25
 svn:wc:ra_dav:version-url
 V 50
+<<<<<<< HEAD
 /svn/skiexcision/!svn/ver/40/trunk/new_website/img
+=======
+/svn/skiexcision/!svn/ver/18/trunk/new_website/img
+>>>>>>> 6438d6a24d6045d9d0079f9530b548f1f6c203f1
 END
 slide-3.jpg
 K 25
@@ -9,6 +13,7 @@ svn:wc:ra_dav:version-url
 V 62
 /svn/skiexcision/!svn/ver/18/trunk/new_website/img/slide-3.jpg
 END
+<<<<<<< HEAD
 ski-resort-at-night-11288014304WuG5.jpg
 K 25
 svn:wc:ra_dav:version-url
@@ -21,30 +26,38 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/skiexcision/!svn/ver/28/trunk/new_website/img/circuitrycompressed.jpg
 END
+=======
+>>>>>>> 6438d6a24d6045d9d0079f9530b548f1f6c203f1
 intro-pic.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/skiexcision/!svn/ver/18/trunk/new_website/img/intro-pic.jpg
 END
+<<<<<<< HEAD
 slopecompressed.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 70
 /svn/skiexcision/!svn/ver/22/trunk/new_website/img/slopecompressed.jpg
 END
+=======
+>>>>>>> 6438d6a24d6045d9d0079f9530b548f1f6c203f1
 bg.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 57
 /svn/skiexcision/!svn/ver/18/trunk/new_website/img/bg.jpg
 END
+<<<<<<< HEAD
 whiteboard.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 65
 /svn/skiexcision/!svn/ver/28/trunk/new_website/img/whiteboard.jpg
 END
+=======
+>>>>>>> 6438d6a24d6045d9d0079f9530b548f1f6c203f1
 slide-1.jpg
 K 25
 svn:wc:ra_dav:version-url
